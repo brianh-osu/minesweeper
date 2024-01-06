@@ -27,6 +27,8 @@ def play_Minesweeper():
         
     def uncover_mines():
         choice = input("Which tile would you like to uncover?")
+        # how do you differentiate the first uncover_mines (before recursion begins) versus the other? Maybe pass in optional parameter?
+        # Within that 'first uncover' should I modulate a check_lose method too because for the recursive versions we should not lose. Rather we should go until it is a mine.
         
     # set global variables 
     board = initialize_board()
